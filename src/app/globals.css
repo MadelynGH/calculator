@@ -1,0 +1,29 @@
+body {
+    font-family: "Kode Mono", monospace;
+    margin-top: 35px;
+}
+
+button {
+    margin: 8px;
+    font-size: 1.4em;
+    padding: 20px;
+    font-family: "Kode Mono", monospace;
+    border: none;
+    background-color: #00b2b8;
+    color: white;
+    box-shadow: 2px 2px 0px 2px #555555;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translate(4px, 4px)
+}
+
+#operator-div > button {
+    background-color: #ff69d0;
+    color: white;
+}
