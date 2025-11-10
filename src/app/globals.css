@@ -20,7 +20,7 @@ button:hover {
 
 button:active {
     box-shadow: none;
-    transform: translate(4px, 4px)
+    transform: translate(4px, 4px);
 }
 
 #operator-div > button {
