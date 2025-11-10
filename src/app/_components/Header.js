@@ -23,9 +23,9 @@ export default function Header() {
             left: "0",
             borderBottom: "1px solid #00b899"
         }}>
-            <HeaderLink href="../">Calculator</HeaderLink>
-            <HeaderLink href="../help/">Help</HeaderLink>
-            <HeaderLink href="../credits/">Credits</HeaderLink>
+            <HeaderLink href="/calculator">Calculator</HeaderLink>
+            <HeaderLink href="/calculator/help">Help</HeaderLink>
+            <HeaderLink href="/calculator/credits">Credits</HeaderLink>
         </div>
     );
 }
